@@ -1,6 +1,5 @@
 import styles from '../styles/Navbar.module.scss';
 import {useState} from 'react';
-import Image from 'next/image';
 
 
 export default function Navbar(props){
@@ -34,7 +33,7 @@ export default function Navbar(props){
         <nav className={`${styles.frNavbar}`}>
 
             <div className={`${styles.navbarLeftSection}`}>
-            <a className="" href="#"><Image src={props.devLogo} className={`${styles.frNavbarLogo}`} width='2rem' height='2rem' alt="FREI:raum"/></a>
+            <a className="" href="#"><img src={props.devLogo} className={`${styles.frNavbarLogo}`} width='2rem' height='2rem' alt="FREI:raum"/></a>
                 <form className="" >
                     <input className={`${styles.navbarSEARCHBAR}`} type="search" placeholder="FREI:raum durchsuchen" />
                     <button className={`${styles.navbarSEARCHBUTTON}`} type="submit">Go</button>
@@ -83,7 +82,7 @@ export default function Navbar(props){
 
                 <li className={``}>
                     <div>
-                        <a className="nav-link active" href="#" title="Konto"><Image src={props.profileImage} className={`${styles.frNavbarProfileImage}`} alt='Profilbild' width='2.5rem' height='2.5rem' /></a>
+                        <a className="nav-link active" href="#" title="Konto"><img src={props.profileImage} className={`${styles.frNavbarProfileImage}`} alt='Profilbild' width='2.5rem' height='2.5rem' /></a>
                     </div>
                 </li>
         

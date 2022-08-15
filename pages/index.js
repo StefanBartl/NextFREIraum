@@ -9,8 +9,8 @@ import Wall from '../components/Wall';
 
 export default function Home() {
 
-  const DEVlogo = '/public/graphics/logos/dev_logo.png';
-  const staticProfileImage = '/public/graphics/images/sonnenbild.jpg';
+  const DEVlogo = '/graphics/logos/dev_logo.png';
+  const staticProfileImage = '/graphics/images/sonnenbild.jpg';
   
   return (
     <div>
