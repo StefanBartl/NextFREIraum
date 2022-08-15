@@ -2,6 +2,9 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.scss'
 import Navbar from '../components/Navbar';
+import LeftSidebar from '../components/LeftSidebar';
+import RightSidebar from '../components/RightSidebar';
+import Wall from '../components/Wall';
 
 
 export default function Home() {
@@ -21,7 +24,9 @@ export default function Home() {
 
 
       <main className={styles.main}>
-        
+        <LeftSidebar />
+        <Wall profileImage={staticProfileImage}/>
+        <RightSidebar />
       </main>
 
       <h1>Hi, WKD!</h1>

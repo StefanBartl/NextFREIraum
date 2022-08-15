@@ -83,7 +83,7 @@ export default function Navbar(props){
 
                 <li className={``}>
                     <div>
-                        <a className="nav-link active" href="#" title="Konto"><Image src={props.profileImage} className={`${styles.frNavbarProfileImage}`} alt='Profilbild' width='2.5rem' height='2.5rem'/></a>
+                        <a className="nav-link active" href="#" title="Konto"><Image src={props.profileImage} className={`${styles.frNavbarProfileImage}`} alt='Profilbild' width='2.5rem' height='2.5rem' /></a>
                     </div>
                 </li>
         
