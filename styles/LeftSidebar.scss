@@ -1,0 +1,18 @@
+.leftSidebar{
+    display: flex;
+    flex-direction: column;
+    padding: .5rem;
+    gap: 1rem;
+  
+    > div  {
+      display: flex;
+      flex-direction: column;
+      gap: .5rem;
+      padding: .5rem;
+    }
+  
+    > .leftSidebarSecondSection{
+      border-top: solid 1px lightgrey;
+    }
+  
+  }

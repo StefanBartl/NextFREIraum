@@ -1,0 +1,20 @@
+.rightSidebar{
+
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+
+  > div{
+    padding: 1rem;
+    border-top: solid 1px lightgrey;
+  }
+
+  > .rightSidebar_ads{
+    border-top: none;
+  }
+
+  > .rightSidebar_contactlist{
+    border-bottom: solid 1px lightgrey;
+  }
+
+}

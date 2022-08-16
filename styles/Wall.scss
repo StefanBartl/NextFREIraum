@@ -1,0 +1,35 @@
+.wall{
+    display: flex;
+    flex-direction: column;
+  
+    > .newpost{
+      display: flex;
+      gap: .5rem;
+      margin: .5rem;
+      justify-content: center;
+  
+      > img {
+        width: 2rem;
+        height: 2rem;
+        clip-path: circle(15px at 20px 20px);
+      }
+      >  button {
+        background-color: #F0F2F5;
+        color: gray;
+        width: 100%;
+        border-radius: 15px;
+        border: none;
+      }
+  
+    }
+  
+  
+    > .currentwall{
+  
+      > h2 {
+        text-align: center;
+      }
+    }
+  
+}
+  
