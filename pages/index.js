@@ -6,6 +6,8 @@ import LeftSidebar from '../components/LeftSidebar';
 import RightSidebar from '../components/RightSidebar';
 import Wall from '../components/Wall';
 
+
+
 export default function Home() {
 
   const DEVlogo = '/graphics/logos/dev_logo.png';

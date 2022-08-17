@@ -7,6 +7,7 @@ export default function LeftSidebar(props){
             <section className={`${styles.leftSidebar}`}>
 
                 <div className={`${styles.leftSidebarFirstSection}`}>
+                    <h2>{props.hm}</h2>
                     <a href='#'>Profilname</a>
                     <a href='#'>Freunde</a>
                     <a href='#'>Gruppen</a>
