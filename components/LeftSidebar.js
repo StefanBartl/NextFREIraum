@@ -1,6 +1,6 @@
 import styles from '../styles/Home.module.scss';
 
-export default function LeftSidebar(props){
+export default function LeftSidebar (props) {
 
     return (
         <>
@@ -29,3 +29,4 @@ export default function LeftSidebar(props){
 
     )
 };
+

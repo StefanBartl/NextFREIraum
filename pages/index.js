@@ -7,7 +7,6 @@ import RightSidebar from '../components/RightSidebar';
 import Wall from '../components/Wall';
 
 
-
 export default function Home() {
 
   const DEVlogo = '/graphics/logos/dev_logo.png';
@@ -26,6 +25,7 @@ export default function Home() {
       </Head>
 
       <Navbar devLogo={DEVlogo} profileImage={staticProfileImage} />  
+
 
       <main className={styles.main}>
         <LeftSidebar />
