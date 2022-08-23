@@ -10,6 +10,6 @@ export default async function MongoDB (req, res) {
   await db.collection(MONGODB_COLLECTION_USERS)
           .insertOne({id: uuidv4(),  username: 'TESTOBJECT', createdAt: new Date()}, (err, data) => {
             if (err) console.log(err);
-            res.redirect('/');
+            res.send(data);
           });
 }
