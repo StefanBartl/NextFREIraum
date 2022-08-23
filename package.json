@@ -4,16 +4,15 @@
   "private": true,
   "scripts": {
     "sass-w": "sass -w sass/styles.scss:styles/styles.module.css",
-    "dev": "next",
+    "dev": "next dev",
     "build": "next build",
-    "start": "next start -p $PORT",
+    "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
     "@types/bootstrap": "^5.2.1",
     "bootstrap": "^5.2.0",
     "bootstrap-icons": "^1.9.1",
-    "heroku": "^7.62.0",
     "mongodb": "^4.8.1",
     "next": "12.2.5",
     "next-auth": "^4.10.3",
